@@ -11,12 +11,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Uco\\OAuth2\\Client\\": "src/"
+            "AulaSoftwareLibre\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Uco\\OAuth2\\Client\\": "tests/"
+            "Tests\\AulaSoftwareLibre\\OAuth2\\Client\\": "tests/"
         }
     },
     "require": {

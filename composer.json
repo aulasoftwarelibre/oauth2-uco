@@ -1,5 +1,5 @@
 {
-    "name": "informaticauco/oauth2-uco",
+    "name": "aulasoftwarelibre/oauth2-uco",
     "description": "University of Córdoba client provider to the PHP League OAuth2 client",
     "type": "library",
     "license": "AGPL-3.0-or-later",

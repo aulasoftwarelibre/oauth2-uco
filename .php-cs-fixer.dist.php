@@ -1,11 +1,9 @@
 <?php
 
 $fileHeaderComment = <<<COMMENT
-This file is part of the `informaticauco/oauth2-client`.
+This file is part of the `aulasoftwarelibre/oauth2-client`.
 
-Copyright (C) 2018 by Sergio Gómez <sergio@uco.es>
-
-This code was developed by Universidad de Córdoba (UCO https://www.uco.es)
+Copyleft (C) 2018 by Sergio Gómez <sergio@uco.es>
 
 For the full copyright and license information, please view the LICENSE
 file that was distributed with this source code.
@@ -13,7 +11,8 @@ COMMENT;
 $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__)
 ;
-return PhpCsFixer\Config::create()
+$config = new PhpCsFixer\Config();
+return $config
     ->setRiskyAllowed(true)
     ->setRules([
         '@Symfony' => true,
